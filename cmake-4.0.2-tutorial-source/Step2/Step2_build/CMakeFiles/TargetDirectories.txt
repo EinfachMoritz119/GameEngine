@@ -1,0 +1,6 @@
+/home/ubu/code/cpp/GameDevelopment/cmake-4.0.2-tutorial-source/Step2/Step2_build/CMakeFiles/Tutorial.dir
+/home/ubu/code/cpp/GameDevelopment/cmake-4.0.2-tutorial-source/Step2/Step2_build/CMakeFiles/edit_cache.dir
+/home/ubu/code/cpp/GameDevelopment/cmake-4.0.2-tutorial-source/Step2/Step2_build/CMakeFiles/rebuild_cache.dir
+/home/ubu/code/cpp/GameDevelopment/cmake-4.0.2-tutorial-source/Step2/Step2_build/MathFunctions/CMakeFiles/MathFunctions.dir
+/home/ubu/code/cpp/GameDevelopment/cmake-4.0.2-tutorial-source/Step2/Step2_build/MathFunctions/CMakeFiles/edit_cache.dir
+/home/ubu/code/cpp/GameDevelopment/cmake-4.0.2-tutorial-source/Step2/Step2_build/MathFunctions/CMakeFiles/rebuild_cache.dir

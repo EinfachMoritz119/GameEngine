@@ -1,0 +1,515 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++-Optimierungscompiler Version 19.43.34809 für x64
+      Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 14.43.34809.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/3.30.5-msvc23/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Hinweis: Einlesen der Datei: E:\\Code\\C++\\source\\repos\\GravitySimulator\\GravitySimulator\\dependencies\\include\\glm\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Hinweis: Einlesen der Datei: "
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++-Optimierungscompiler Version 19.43.34809 für x64
+      Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.43.34809.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/3.30.5-msvc23/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Hinweis: Einlesen der Datei: E:\\Code\\C++\\source\\repos\\GravitySimulator\\GravitySimulator\\dependencies\\include\\glm\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Hinweis: Einlesen der Datei: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-9p5vb9"
+      binary: "E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-9p5vb9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-9p5vb9'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_2371a
+        [1/2] C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_2371a.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_2371a.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_2371a.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_2371a.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_2371a.exe /implib:cmTC_2371a.lib /pdb:cmTC_2371a.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/PROGRA~1/MICROS~1/2022/COMMUN~1/VC/Tools/MSVC/1443~1.348/bin/Hostx64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Running the C compiler's linker: "C:/PROGRA~1/MICROS~1/2022/COMMUN~1/VC/Tools/MSVC/1443~1.348/bin/Hostx64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.43.34809.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-z3bupk"
+      binary: "E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-z3bupk"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-z3bupk'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_385d9
+        [1/2] C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_385d9.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_385d9.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_385d9.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_385d9.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_385d9.exe /implib:cmTC_385d9.lib /pdb:cmTC_385d9.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/PROGRA~1/MICROS~1/2022/COMMUN~1/VC/Tools/MSVC/1443~1.348/bin/Hostx64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Running the CXX compiler's linker: "C:/PROGRA~1/MICROS~1/2022/COMMUN~1/VC/Tools/MSVC/1443~1.348/bin/Hostx64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.43.34809.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:540 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file sys/types.h"
+    directories:
+      source: "E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-aaj23o"
+      binary: "E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-aaj23o"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-aaj23o'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_1216b
+        [1/2] C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_1216b.dir\\HAVE_SYS_TYPES_H.c.obj /FdCMakeFiles\\cmTC_1216b.dir\\ /FS -c E:\\Code\\C++\\source\\repos\\GravitySimulator\\GravitySimulator\\dependencies\\include\\glm\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-aaj23o\\HAVE_SYS_TYPES_H.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_1216b.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_1216b.dir\\HAVE_SYS_TYPES_H.c.obj  /out:cmTC_1216b.exe /implib:cmTC_1216b.lib /pdb:cmTC_1216b.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:541 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file unistd.h"
+    directories:
+      source: "E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-zxg4la"
+      binary: "E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-zxg4la"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-zxg4la'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_92100
+        [1/2] C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_92100.dir\\HAVE_UNISTD_H.c.obj /FdCMakeFiles\\cmTC_92100.dir\\ /FS -c E:\\Code\\C++\\source\\repos\\GravitySimulator\\GravitySimulator\\dependencies\\include\\glm\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-zxg4la\\HAVE_UNISTD_H.c
+        FAILED: CMakeFiles/cmTC_92100.dir/HAVE_UNISTD_H.c.obj 
+        C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_92100.dir\\HAVE_UNISTD_H.c.obj /FdCMakeFiles\\cmTC_92100.dir\\ /FS -c E:\\Code\\C++\\source\\repos\\GravitySimulator\\GravitySimulator\\dependencies\\include\\glm\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-zxg4la\\HAVE_UNISTD_H.c
+        E:\\Code\\C++\\source\\repos\\GravitySimulator\\GravitySimulator\\dependencies\\include\\glm\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-zxg4la\\HAVE_UNISTD_H.c(2): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "unistd.h": No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:542 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file sys/time.h"
+    directories:
+      source: "E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-yb06yq"
+      binary: "E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-yb06yq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAVE_SYS_TIME_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-yb06yq'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_d8dc6
+        [1/2] C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d8dc6.dir\\HAVE_SYS_TIME_H.c.obj /FdCMakeFiles\\cmTC_d8dc6.dir\\ /FS -c E:\\Code\\C++\\source\\repos\\GravitySimulator\\GravitySimulator\\dependencies\\include\\glm\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-yb06yq\\HAVE_SYS_TIME_H.c
+        FAILED: CMakeFiles/cmTC_d8dc6.dir/HAVE_SYS_TIME_H.c.obj 
+        C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d8dc6.dir\\HAVE_SYS_TIME_H.c.obj /FdCMakeFiles\\cmTC_d8dc6.dir\\ /FS -c E:\\Code\\C++\\source\\repos\\GravitySimulator\\GravitySimulator\\dependencies\\include\\glm\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-yb06yq\\HAVE_SYS_TIME_H.c
+        E:\\Code\\C++\\source\\repos\\GravitySimulator\\GravitySimulator\\dependencies\\include\\glm\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-yb06yq\\HAVE_SYS_TIME_H.c(2): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "sys/time.h": No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:543 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file stdbool.h"
+    directories:
+      source: "E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ykxq9i"
+      binary: "E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ykxq9i"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAVE_STDBOOL_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ykxq9i'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_75ce9
+        [1/2] C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_75ce9.dir\\HAVE_STDBOOL_H.c.obj /FdCMakeFiles\\cmTC_75ce9.dir\\ /FS -c E:\\Code\\C++\\source\\repos\\GravitySimulator\\GravitySimulator\\dependencies\\include\\glm\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-ykxq9i\\HAVE_STDBOOL_H.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_75ce9.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_75ce9.dir\\HAVE_STDBOOL_H.c.obj  /out:cmTC_75ce9.exe /implib:cmTC_75ce9.lib /pdb:cmTC_75ce9.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:544 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file sys/param.h"
+    directories:
+      source: "E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-r1g0uk"
+      binary: "E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-r1g0uk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAVE_SYS_PARAM_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-r1g0uk'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_16ac2
+        [1/2] C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_16ac2.dir\\HAVE_SYS_PARAM_H.c.obj /FdCMakeFiles\\cmTC_16ac2.dir\\ /FS -c E:\\Code\\C++\\source\\repos\\GravitySimulator\\GravitySimulator\\dependencies\\include\\glm\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-r1g0uk\\HAVE_SYS_PARAM_H.c
+        FAILED: CMakeFiles/cmTC_16ac2.dir/HAVE_SYS_PARAM_H.c.obj 
+        C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_16ac2.dir\\HAVE_SYS_PARAM_H.c.obj /FdCMakeFiles\\cmTC_16ac2.dir\\ /FS -c E:\\Code\\C++\\source\\repos\\GravitySimulator\\GravitySimulator\\dependencies\\include\\glm\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-r1g0uk\\HAVE_SYS_PARAM_H.c
+        E:\\Code\\C++\\source\\repos\\GravitySimulator\\GravitySimulator\\dependencies\\include\\glm\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-r1g0uk\\HAVE_SYS_PARAM_H.c(2): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "sys/param.h": No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:545 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file sys/ioctl.h"
+    directories:
+      source: "E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-44e1ck"
+      binary: "E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-44e1ck"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAVE_SYS_IOCTL_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-44e1ck'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_603e4
+        [1/2] C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_603e4.dir\\HAVE_SYS_IOCTL_H.c.obj /FdCMakeFiles\\cmTC_603e4.dir\\ /FS -c E:\\Code\\C++\\source\\repos\\GravitySimulator\\GravitySimulator\\dependencies\\include\\glm\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-44e1ck\\HAVE_SYS_IOCTL_H.c
+        FAILED: CMakeFiles/cmTC_603e4.dir/HAVE_SYS_IOCTL_H.c.obj 
+        C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_603e4.dir\\HAVE_SYS_IOCTL_H.c.obj /FdCMakeFiles\\cmTC_603e4.dir\\ /FS -c E:\\Code\\C++\\source\\repos\\GravitySimulator\\GravitySimulator\\dependencies\\include\\glm\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-44e1ck\\HAVE_SYS_IOCTL_H.c
+        E:\\Code\\C++\\source\\repos\\GravitySimulator\\GravitySimulator\\dependencies\\include\\glm\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-44e1ck\\HAVE_SYS_IOCTL_H.c(2): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "sys/ioctl.h": No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:546 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file fcntl.h"
+    directories:
+      source: "E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-xcvcmp"
+      binary: "E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-xcvcmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAVE_FCNTL_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-xcvcmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_03185
+        [1/2] C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_03185.dir\\HAVE_FCNTL_H.c.obj /FdCMakeFiles\\cmTC_03185.dir\\ /FS -c E:\\Code\\C++\\source\\repos\\GravitySimulator\\GravitySimulator\\dependencies\\include\\glm\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-xcvcmp\\HAVE_FCNTL_H.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_03185.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_03185.dir\\HAVE_FCNTL_H.c.obj  /out:cmTC_03185.exe /implib:cmTC_03185.lib /pdb:cmTC_03185.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:547 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file usbhid.h"
+    directories:
+      source: "E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-o8l5qd"
+      binary: "E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-o8l5qd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAVE_USBHID_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-o8l5qd'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_920f4
+        [1/2] C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_920f4.dir\\HAVE_USBHID_H.c.obj /FdCMakeFiles\\cmTC_920f4.dir\\ /FS -c E:\\Code\\C++\\source\\repos\\GravitySimulator\\GravitySimulator\\dependencies\\include\\glm\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-o8l5qd\\HAVE_USBHID_H.c
+        FAILED: CMakeFiles/cmTC_920f4.dir/HAVE_USBHID_H.c.obj 
+        C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_920f4.dir\\HAVE_USBHID_H.c.obj /FdCMakeFiles\\cmTC_920f4.dir\\ /FS -c E:\\Code\\C++\\source\\repos\\GravitySimulator\\GravitySimulator\\dependencies\\include\\glm\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-o8l5qd\\HAVE_USBHID_H.c
+        E:\\Code\\C++\\source\\repos\\GravitySimulator\\GravitySimulator\\dependencies\\include\\glm\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-o8l5qd\\HAVE_USBHID_H.c(2): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "usbhid.h": No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:548 (CHECK_FUNCTION_EXISTS)"
+    checks:
+      - "Looking for gettimeofday"
+    directories:
+      source: "E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ai12my"
+      binary: "E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ai12my"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAVE_GETTIMEOFDAY"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ai12my'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_6f01e
+        [1/2] C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=gettimeofday /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_6f01e.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_6f01e.dir\\ /FS -c E:\\Code\\C++\\source\\repos\\GravitySimulator\\GravitySimulator\\dependencies\\include\\glm\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-ai12my\\CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_6f01e.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_6f01e.dir\\CheckFunctionExists.c.obj  /out:cmTC_6f01e.exe /implib:cmTC_6f01e.lib /pdb:cmTC_6f01e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_6f01e.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_6f01e.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_6f01e.dir\\CheckFunctionExists.c.obj  /out:cmTC_6f01e.exe /implib:cmTC_6f01e.lib /pdb:cmTC_6f01e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_6f01e.dir\\CheckFunctionExists.c.obj /out:cmTC_6f01e.exe /implib:cmTC_6f01e.lib /pdb:cmTC_6f01e.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_6f01e.dir/intermediate.manifest CMakeFiles\\cmTC_6f01e.dir/manifest.res" failed (exit code 1120) with the following output:
+        CheckFunctionExists.c.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "gettimeofday" in Funktion "main".\x0d
+        cmTC_6f01e.exe : fatal error LNK1120: 1 nicht aufgelöste Externe\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:549 (CHECK_FUNCTION_EXISTS)"
+    checks:
+      - "Looking for XParseGeometry"
+    directories:
+      source: "E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-se32p6"
+      binary: "E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-se32p6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAVE_XPARSEGEOMETRY"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-se32p6'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_ebbd2
+        [1/2] C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=XParseGeometry /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_ebbd2.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_ebbd2.dir\\ /FS -c E:\\Code\\C++\\source\\repos\\GravitySimulator\\GravitySimulator\\dependencies\\include\\glm\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-se32p6\\CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_ebbd2.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ebbd2.dir\\CheckFunctionExists.c.obj  /out:cmTC_ebbd2.exe /implib:cmTC_ebbd2.lib /pdb:cmTC_ebbd2.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_ebbd2.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_ebbd2.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ebbd2.dir\\CheckFunctionExists.c.obj  /out:cmTC_ebbd2.exe /implib:cmTC_ebbd2.lib /pdb:cmTC_ebbd2.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ebbd2.dir\\CheckFunctionExists.c.obj /out:cmTC_ebbd2.exe /implib:cmTC_ebbd2.lib /pdb:cmTC_ebbd2.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_ebbd2.dir/intermediate.manifest CMakeFiles\\cmTC_ebbd2.dir/manifest.res" failed (exit code 1120) with the following output:
+        CheckFunctionExists.c.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "XParseGeometry" in Funktion "main".\x0d
+        cmTC_ebbd2.exe : fatal error LNK1120: 1 nicht aufgelöste Externe\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:557 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file stdint.h"
+    directories:
+      source: "E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-8t0ljp"
+      binary: "E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-8t0ljp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-8t0ljp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_7b2c7
+        [1/2] C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_7b2c7.dir\\HAVE_STDINT_H.c.obj /FdCMakeFiles\\cmTC_7b2c7.dir\\ /FS -c E:\\Code\\C++\\source\\repos\\GravitySimulator\\GravitySimulator\\dependencies\\include\\glm\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-8t0ljp\\HAVE_STDINT_H.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_7b2c7.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_7b2c7.dir\\HAVE_STDINT_H.c.obj  /out:cmTC_7b2c7.exe /implib:cmTC_7b2c7.lib /pdb:cmTC_7b2c7.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:558 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file inttypes.h"
+    directories:
+      source: "E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-yczl7h"
+      binary: "E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-yczl7h"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAVE_INTTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Code/C++/source/repos/GravitySimulator/GravitySimulator/dependencies/include/glm/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-yczl7h'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_748b0
+        [1/2] C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_748b0.dir\\HAVE_INTTYPES_H.c.obj /FdCMakeFiles\\cmTC_748b0.dir\\ /FS -c E:\\Code\\C++\\source\\repos\\GravitySimulator\\GravitySimulator\\dependencies\\include\\glm\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-yczl7h\\HAVE_INTTYPES_H.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_748b0.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_748b0.dir\\HAVE_INTTYPES_H.c.obj  /out:cmTC_748b0.exe /implib:cmTC_748b0.lib /pdb:cmTC_748b0.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+...
