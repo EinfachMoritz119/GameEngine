@@ -1,4 +1,0 @@
-/home/ubu/code/cpp/GameDevelopment/build/CMakeFiles/glad.dir
-/home/ubu/code/cpp/GameDevelopment/build/CMakeFiles/GameEngine.dir
-/home/ubu/code/cpp/GameDevelopment/build/CMakeFiles/edit_cache.dir
-/home/ubu/code/cpp/GameDevelopment/build/CMakeFiles/rebuild_cache.dir
