@@ -1,5 +1,6 @@
 #include "Object.h"
 
+#include "GLFW/glfw3.h"
 #include "glm/gtx/string_cast.hpp"
 #include <iostream>
 
@@ -27,6 +28,7 @@ Object::Object(glm::vec3 position, std::vector<Vertex> vertices,
   vertex_array = VAO;
 }
 
+void Object::update() { m_position = glm::vec3(sin(glfwGetTime()), sin( glfwGetTime()), m_position.z); }
 void Object::render() {
   glBindVertexArray(vertex_array);
   glDrawArrays(GL_TRIANGLES, 0, m_vertices.size());

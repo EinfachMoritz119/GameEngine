@@ -12,6 +12,7 @@ class Object {
 
 public:
   Object(glm::vec3 position, std::vector<Vertex> vertices, int indices[]);
+  void update();
   void render();
   GLuint GetVAO();
 

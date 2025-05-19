@@ -33,6 +33,7 @@ glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
   if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
     std::cerr << "Failed to init GLAD" << std::endl;
   }
+  glEnable(GL_DEPTH_TEST);
   shaderProgram =
       new Shader("shader/vertex_shader.glsl", "shader/fragment_shader.glsl");
   Init();
@@ -49,7 +50,7 @@ void Renderer::Init() {
 void Renderer::Render(const Camera &cam) {
 
   glClearColor(0.3f, 0.3f, 0.3f, 1.0f);
-  glClear(GL_COLOR_BUFFER_BIT);
+  glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
   if (objects.empty()) {
     std::cout << "Objects are empty" << std::endl;
   }
@@ -67,6 +68,7 @@ void Renderer::Render(const Camera &cam) {
                         glm::vec3(0.0f, 1.0f, 0.0f));
     shaderProgram->setMat4("model", model);
     object.render();
+object.update();
     i *= -1;
   }
   glfwSwapBuffers(window);
