@@ -2,7 +2,8 @@ cmake_minimum_required(VERSION 3.28)
 project(GameEngine)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
-
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # Pakete finden
 find_package(OpenGL REQUIRED)
 find_package(glfw3 REQUIRED)
@@ -17,7 +18,6 @@ add_executable(${PROJECT_NAME}
     # weitere cpp-Dateien hier einfügen
     src/core/Object.cpp
     src/core/GameEngine.cpp
-    src/core/Cube.cpp
     src/graphics/Shader.cpp
     src/graphics/Camera.cpp
     src/graphics/Renderer.cpp

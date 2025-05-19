@@ -1,7 +1,9 @@
 #include "Renderer.h"
+#include "glm/gtx/string_cast.hpp"
 
 #include <filesystem>
 #include <iostream>
+#include <string>
 
 namespace graphics {
 
@@ -11,6 +13,15 @@ Renderer::Renderer() {
   if (!glfwInit()) {
     fprintf(stderr, "Failed to init GLFW\n");
   }
+glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
+glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
+glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
+
+// Für macOS zusätzlich nötig:
+#ifdef __APPLE__
+    glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
+#endif
+
   window = glfwCreateWindow(WIDTH, HEIGHT, "Hello OpenGL", NULL, NULL);
   if (window == NULL) {
     fprintf(stderr, "Failed to open GLFW window");
@@ -46,13 +57,17 @@ void Renderer::Render(const Camera &cam) {
 
   glm::mat4 view = cam.GetViewMatrix();
   shaderProgram->setMat4("view", view);
-
+  int i = 1;
   for (core::Object &object : objects) {
 
     glm::mat4 model = glm::mat4(1.0f);
-    model = glm::rotate(model, glm::radians(20.0f) * (float)glfwGetTime(), glm::vec3(0.0f,1.0f,0.0f));
+    std::cout << glm::to_string(object.m_position) << std::endl;
+    model = glm::translate(model, object.m_position);
+    model = glm::rotate(model, glm::radians(20.0f * i) * (float)glfwGetTime(),
+                        glm::vec3(0.0f, 1.0f, 0.0f));
     shaderProgram->setMat4("model", model);
     object.render();
+    i *= -1;
   }
   glfwSwapBuffers(window);
   glfwPollEvents();
