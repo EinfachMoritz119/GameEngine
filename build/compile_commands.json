@@ -1,50 +1,44 @@
 [
 {
-  "directory": "/home/ubu/code/cpp/GameDevelopment/build",
-  "command": "/usr/bin/cc  -I/home/ubu/code/cpp/GameDevelopment/dependencies/include -g -o CMakeFiles/glad.dir/src/glad.c.o -c /home/ubu/code/cpp/GameDevelopment/src/glad.c",
-  "file": "/home/ubu/code/cpp/GameDevelopment/src/glad.c",
+  "directory": "/Users/giulianklein/Code/C++/GameEngine/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -I/Users/giulianklein/Code/C++/GameEngine/dependencies/include -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -o CMakeFiles/glad.dir/src/glad.c.o -c /Users/giulianklein/Code/C++/GameEngine/src/glad.c",
+  "file": "/Users/giulianklein/Code/C++/GameEngine/src/glad.c",
   "output": "CMakeFiles/glad.dir/src/glad.c.o"
 },
 {
-  "directory": "/home/ubu/code/cpp/GameDevelopment/build",
-  "command": "/usr/bin/c++  -I/home/ubu/code/cpp/GameDevelopment/src -I/home/ubu/code/cpp/GameDevelopment/src/core -I/home/ubu/code/cpp/GameDevelopment/src/graphics -I/home/ubu/code/cpp/GameDevelopment/dependencies/include -g -o CMakeFiles/GameEngine.dir/src/main.cpp.o -c /home/ubu/code/cpp/GameDevelopment/src/main.cpp",
-  "file": "/home/ubu/code/cpp/GameDevelopment/src/main.cpp",
+  "directory": "/Users/giulianklein/Code/C++/GameEngine/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/giulianklein/Code/C++/GameEngine/src -I/Users/giulianklein/Code/C++/GameEngine/src/core -I/Users/giulianklein/Code/C++/GameEngine/src/graphics -I/Users/giulianklein/Code/C++/GameEngine/dependencies/include -isystem /opt/homebrew/include -iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -o CMakeFiles/GameEngine.dir/src/main.cpp.o -c /Users/giulianklein/Code/C++/GameEngine/src/main.cpp",
+  "file": "/Users/giulianklein/Code/C++/GameEngine/src/main.cpp",
   "output": "CMakeFiles/GameEngine.dir/src/main.cpp.o"
 },
 {
-  "directory": "/home/ubu/code/cpp/GameDevelopment/build",
-  "command": "/usr/bin/c++  -I/home/ubu/code/cpp/GameDevelopment/src -I/home/ubu/code/cpp/GameDevelopment/src/core -I/home/ubu/code/cpp/GameDevelopment/src/graphics -I/home/ubu/code/cpp/GameDevelopment/dependencies/include -g -o CMakeFiles/GameEngine.dir/src/core/Object.cpp.o -c /home/ubu/code/cpp/GameDevelopment/src/core/Object.cpp",
-  "file": "/home/ubu/code/cpp/GameDevelopment/src/core/Object.cpp",
+  "directory": "/Users/giulianklein/Code/C++/GameEngine/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/giulianklein/Code/C++/GameEngine/src -I/Users/giulianklein/Code/C++/GameEngine/src/core -I/Users/giulianklein/Code/C++/GameEngine/src/graphics -I/Users/giulianklein/Code/C++/GameEngine/dependencies/include -isystem /opt/homebrew/include -iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -o CMakeFiles/GameEngine.dir/src/core/Object.cpp.o -c /Users/giulianklein/Code/C++/GameEngine/src/core/Object.cpp",
+  "file": "/Users/giulianklein/Code/C++/GameEngine/src/core/Object.cpp",
   "output": "CMakeFiles/GameEngine.dir/src/core/Object.cpp.o"
 },
 {
-  "directory": "/home/ubu/code/cpp/GameDevelopment/build",
-  "command": "/usr/bin/c++  -I/home/ubu/code/cpp/GameDevelopment/src -I/home/ubu/code/cpp/GameDevelopment/src/core -I/home/ubu/code/cpp/GameDevelopment/src/graphics -I/home/ubu/code/cpp/GameDevelopment/dependencies/include -g -o CMakeFiles/GameEngine.dir/src/core/GameEngine.cpp.o -c /home/ubu/code/cpp/GameDevelopment/src/core/GameEngine.cpp",
-  "file": "/home/ubu/code/cpp/GameDevelopment/src/core/GameEngine.cpp",
+  "directory": "/Users/giulianklein/Code/C++/GameEngine/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/giulianklein/Code/C++/GameEngine/src -I/Users/giulianklein/Code/C++/GameEngine/src/core -I/Users/giulianklein/Code/C++/GameEngine/src/graphics -I/Users/giulianklein/Code/C++/GameEngine/dependencies/include -isystem /opt/homebrew/include -iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -o CMakeFiles/GameEngine.dir/src/core/GameEngine.cpp.o -c /Users/giulianklein/Code/C++/GameEngine/src/core/GameEngine.cpp",
+  "file": "/Users/giulianklein/Code/C++/GameEngine/src/core/GameEngine.cpp",
   "output": "CMakeFiles/GameEngine.dir/src/core/GameEngine.cpp.o"
 },
 {
-  "directory": "/home/ubu/code/cpp/GameDevelopment/build",
-  "command": "/usr/bin/c++  -I/home/ubu/code/cpp/GameDevelopment/src -I/home/ubu/code/cpp/GameDevelopment/src/core -I/home/ubu/code/cpp/GameDevelopment/src/graphics -I/home/ubu/code/cpp/GameDevelopment/dependencies/include -g -o CMakeFiles/GameEngine.dir/src/core/Cube.cpp.o -c /home/ubu/code/cpp/GameDevelopment/src/core/Cube.cpp",
-  "file": "/home/ubu/code/cpp/GameDevelopment/src/core/Cube.cpp",
-  "output": "CMakeFiles/GameEngine.dir/src/core/Cube.cpp.o"
-},
-{
-  "directory": "/home/ubu/code/cpp/GameDevelopment/build",
-  "command": "/usr/bin/c++  -I/home/ubu/code/cpp/GameDevelopment/src -I/home/ubu/code/cpp/GameDevelopment/src/core -I/home/ubu/code/cpp/GameDevelopment/src/graphics -I/home/ubu/code/cpp/GameDevelopment/dependencies/include -g -o CMakeFiles/GameEngine.dir/src/graphics/Shader.cpp.o -c /home/ubu/code/cpp/GameDevelopment/src/graphics/Shader.cpp",
-  "file": "/home/ubu/code/cpp/GameDevelopment/src/graphics/Shader.cpp",
+  "directory": "/Users/giulianklein/Code/C++/GameEngine/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/giulianklein/Code/C++/GameEngine/src -I/Users/giulianklein/Code/C++/GameEngine/src/core -I/Users/giulianklein/Code/C++/GameEngine/src/graphics -I/Users/giulianklein/Code/C++/GameEngine/dependencies/include -isystem /opt/homebrew/include -iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -o CMakeFiles/GameEngine.dir/src/graphics/Shader.cpp.o -c /Users/giulianklein/Code/C++/GameEngine/src/graphics/Shader.cpp",
+  "file": "/Users/giulianklein/Code/C++/GameEngine/src/graphics/Shader.cpp",
   "output": "CMakeFiles/GameEngine.dir/src/graphics/Shader.cpp.o"
 },
 {
-  "directory": "/home/ubu/code/cpp/GameDevelopment/build",
-  "command": "/usr/bin/c++  -I/home/ubu/code/cpp/GameDevelopment/src -I/home/ubu/code/cpp/GameDevelopment/src/core -I/home/ubu/code/cpp/GameDevelopment/src/graphics -I/home/ubu/code/cpp/GameDevelopment/dependencies/include -g -o CMakeFiles/GameEngine.dir/src/graphics/Camera.cpp.o -c /home/ubu/code/cpp/GameDevelopment/src/graphics/Camera.cpp",
-  "file": "/home/ubu/code/cpp/GameDevelopment/src/graphics/Camera.cpp",
+  "directory": "/Users/giulianklein/Code/C++/GameEngine/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/giulianklein/Code/C++/GameEngine/src -I/Users/giulianklein/Code/C++/GameEngine/src/core -I/Users/giulianklein/Code/C++/GameEngine/src/graphics -I/Users/giulianklein/Code/C++/GameEngine/dependencies/include -isystem /opt/homebrew/include -iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -o CMakeFiles/GameEngine.dir/src/graphics/Camera.cpp.o -c /Users/giulianklein/Code/C++/GameEngine/src/graphics/Camera.cpp",
+  "file": "/Users/giulianklein/Code/C++/GameEngine/src/graphics/Camera.cpp",
   "output": "CMakeFiles/GameEngine.dir/src/graphics/Camera.cpp.o"
 },
 {
-  "directory": "/home/ubu/code/cpp/GameDevelopment/build",
-  "command": "/usr/bin/c++  -I/home/ubu/code/cpp/GameDevelopment/src -I/home/ubu/code/cpp/GameDevelopment/src/core -I/home/ubu/code/cpp/GameDevelopment/src/graphics -I/home/ubu/code/cpp/GameDevelopment/dependencies/include -g -o CMakeFiles/GameEngine.dir/src/graphics/Renderer.cpp.o -c /home/ubu/code/cpp/GameDevelopment/src/graphics/Renderer.cpp",
-  "file": "/home/ubu/code/cpp/GameDevelopment/src/graphics/Renderer.cpp",
+  "directory": "/Users/giulianklein/Code/C++/GameEngine/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/giulianklein/Code/C++/GameEngine/src -I/Users/giulianklein/Code/C++/GameEngine/src/core -I/Users/giulianklein/Code/C++/GameEngine/src/graphics -I/Users/giulianklein/Code/C++/GameEngine/dependencies/include -isystem /opt/homebrew/include -iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -o CMakeFiles/GameEngine.dir/src/graphics/Renderer.cpp.o -c /Users/giulianklein/Code/C++/GameEngine/src/graphics/Renderer.cpp",
+  "file": "/Users/giulianklein/Code/C++/GameEngine/src/graphics/Renderer.cpp",
   "output": "CMakeFiles/GameEngine.dir/src/graphics/Renderer.cpp.o"
 }
 ]

@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/GameEngine.dir/src/core/Cube.cpp.o"
-  "CMakeFiles/GameEngine.dir/src/core/Cube.cpp.o.d"
   "CMakeFiles/GameEngine.dir/src/core/GameEngine.cpp.o"
   "CMakeFiles/GameEngine.dir/src/core/GameEngine.cpp.o.d"
   "CMakeFiles/GameEngine.dir/src/core/Object.cpp.o"
