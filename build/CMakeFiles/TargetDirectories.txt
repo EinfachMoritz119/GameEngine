@@ -1,4 +1,0 @@
-/Users/giulianklein/Code/C++/GameEngine/build/CMakeFiles/glad.dir
-/Users/giulianklein/Code/C++/GameEngine/build/CMakeFiles/GameEngine.dir
-/Users/giulianklein/Code/C++/GameEngine/build/CMakeFiles/edit_cache.dir
-/Users/giulianklein/Code/C++/GameEngine/build/CMakeFiles/rebuild_cache.dir
