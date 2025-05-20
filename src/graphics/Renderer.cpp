@@ -1,4 +1,5 @@
 #include "Renderer.h"
+#include "GLFW/glfw3.h"
 #include "glm/gtx/string_cast.hpp"
 
 #include <filesystem>
@@ -33,8 +34,6 @@ glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
   glfwMakeContextCurrent(window);
 
   glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
-  glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
-  glfwSetCursorPosCallback(window, mouse_callback);
   if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
     std::cerr << "Failed to init GLAD" << std::endl;
   }
@@ -67,7 +66,6 @@ void Renderer::Render(const Camera &cam) {
   for (core::Object &object : objects) {
 
     glm::mat4 model = glm::mat4(1.0f);
-    std::cout << glm::to_string(object.m_position) << std::endl;
     model = glm::translate(model, object.m_position);
     model = glm::rotate(model, glm::radians(20.0f * i) * (float)glfwGetTime(),
                         glm::vec3(1.0f, 1.0f, 0.0f));
@@ -88,14 +86,4 @@ void framebuffer_size_callback(GLFWwindow *window, int width, int height) {
   glViewport(0, 0, width, height);
 }
 
-void mouse_callback(GLFWwindow* window, double xpos, double ypos) {
-float xoffset = xpos - lastX;
-float yoffset = lastY - ypos; // reversed since y-coordinates range from bottom to top
-lastX = xpos;
-lastY = ypos;
-
-const float sensitivity = 0.1f;
-xoffset *= sensitivity;
-yoffset *= sensitivity;
-}
 }; // namespace graphics

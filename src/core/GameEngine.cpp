@@ -4,13 +4,19 @@
 #include <vector>
 
 namespace core {
+float lastX = 800;
+float lastY = 450;
+float xoffset = lastX;
+float yoffset = lastY;
 
+void mouse_callback(GLFWwindow* window, double xoffset, double yoffset);
 GameEngine::GameEngine() {
   Init();
   camera = graphics::Camera(glm::vec3(0.0f, 0.0f, 3.0f));
 }
 void GameEngine::Init() {
   renderer = new graphics::Renderer();
+  glfwSetCursorPosCallback(renderer->GetWindow(), mouse_callback);
   std::vector<Vertex> vertices = {
       {glm::vec3(-0.5f, -0.5f, 0.0f)}, // bottom left
       {glm::vec3(0.5f, -0.5f, 0.0f)},  // bottom right
@@ -44,6 +50,9 @@ void GameEngine::Run() {
     lastTime = currentTime;
     renderer->Render(camera);
     processInput();
+    camera.ProcessMouseMovement(xoffset, yoffset);
+    xoffset = 0;
+    yoffset = 0;
   }
 }
 void GameEngine::processInput() {
@@ -63,5 +72,18 @@ void GameEngine::processInput() {
   if (glfwGetKey(renderer->GetWindow(), GLFW_KEY_D) == GLFW_PRESS) {
     camera.ProcessKeyboard(RIGHT, deltatime);
   }
+  if (glfwGetKey(renderer->GetWindow(), GLFW_KEY_SPACE) == GLFW_PRESS) {
+    camera.ProcessKeyboard(UP, deltatime);
+  }
+  if (glfwGetKey(renderer->GetWindow(), GLFW_KEY_LEFT_CONTROL) == GLFW_PRESS) {
+    camera.ProcessKeyboard(DOWN, deltatime);
+  }
+}
+void mouse_callback(GLFWwindow* window, double xpos, double ypos) {
+xoffset = xpos - lastX;
+yoffset = lastY - ypos; // reversed since y-coordinates range from bottom to top
+lastX = xpos;
+lastY = ypos;
+
 }
 }; // namespace core
