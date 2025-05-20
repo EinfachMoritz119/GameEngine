@@ -8,7 +8,10 @@
 namespace graphics {
 
 void framebuffer_size_callback(GLFWwindow *window, int width, int height);
+void mouse_callback(GLFWwindow* window, double xpos, double ypos);
 
+float lastX = WIDTH /2;
+float lastY = HEIGHT/2;
 Renderer::Renderer() {
   if (!glfwInit()) {
     fprintf(stderr, "Failed to init GLFW\n");
@@ -30,6 +33,8 @@ glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
   glfwMakeContextCurrent(window);
 
   glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
+  glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
+  glfwSetCursorPosCallback(window, mouse_callback);
   if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
     std::cerr << "Failed to init GLAD" << std::endl;
   }
@@ -65,7 +70,7 @@ void Renderer::Render(const Camera &cam) {
     std::cout << glm::to_string(object.m_position) << std::endl;
     model = glm::translate(model, object.m_position);
     model = glm::rotate(model, glm::radians(20.0f * i) * (float)glfwGetTime(),
-                        glm::vec3(0.0f, 1.0f, 0.0f));
+                        glm::vec3(1.0f, 1.0f, 0.0f));
     shaderProgram->setMat4("model", model);
     object.render();
 object.update();
@@ -83,4 +88,14 @@ void framebuffer_size_callback(GLFWwindow *window, int width, int height) {
   glViewport(0, 0, width, height);
 }
 
+void mouse_callback(GLFWwindow* window, double xpos, double ypos) {
+float xoffset = xpos - lastX;
+float yoffset = lastY - ypos; // reversed since y-coordinates range from bottom to top
+lastX = xpos;
+lastY = ypos;
+
+const float sensitivity = 0.1f;
+xoffset *= sensitivity;
+yoffset *= sensitivity;
+}
 }; // namespace graphics

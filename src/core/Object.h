@@ -1,4 +1,5 @@
-
+#ifndef OBJECT_H
+#define OBJECT_H
 #include "glad/glad.h"
 #include "GLFW/glfw3.h"
 #include "glm/glm.hpp"
@@ -12,6 +13,7 @@ class Object {
 
 public:
   Object(glm::vec3 position, std::vector<Vertex> vertices, int indices[]);
+  void Init();
   void update();
   void render();
   GLuint GetVAO();
@@ -22,3 +24,4 @@ public:
   GLuint vertex_array;
 };
 }; // namespace core
+#endif // !OBJECT_H

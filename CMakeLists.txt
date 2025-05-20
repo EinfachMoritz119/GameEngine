@@ -18,6 +18,7 @@ add_executable(${PROJECT_NAME}
     # weitere cpp-Dateien hier einfügen
     src/core/Object.cpp
     src/core/GameEngine.cpp
+    src/core/Cube.cpp
     src/graphics/Shader.cpp
     src/graphics/Camera.cpp
     src/graphics/Renderer.cpp

@@ -1,4 +1,5 @@
 #include "GameEngine.h"
+#include "Cube.h"
 #include "GLFW/glfw3.h"
 #include <vector>
 
@@ -19,68 +20,17 @@ void GameEngine::Init() {
       {glm::vec3(0.5f, 0.5f, 0.0f)},   // top right
       {glm::vec3(-0.5f, 0.5f, 0.0f)},  // top left
   };
-  std::vector<Vertex> cubeVertices = {
-    // Front face (z = 0.5)
-    {{-0.5f, -0.5f, 0.5f}},
-    {{0.5f, -0.5f, 0.5f}},
-    {{0.5f, 0.5f, 0.5f}},
-
-    {{0.5f, 0.5f, 0.5f}},
-    {{-0.5f, 0.5f, 0.5f}},
-    {{-0.5f, -0.5f, 0.5f}},
-
-    // Back face (z = -0.5)
-    {{0.5f, -0.5f, -0.5f}},
-    {{-0.5f, -0.5f, -0.5f}},
-    {{-0.5f, 0.5f, -0.5f}},
-
-    {{-0.5f, 0.5f, -0.5f}},
-    {{0.5f, 0.5f, -0.5f}},
-    {{0.5f, -0.5f, -0.5f}},
-
-    // Left face (x = -0.5)
-    {{-0.5f, -0.5f, -0.5f}},
-    {{-0.5f, -0.5f, 0.5f}},
-    {{-0.5f, 0.5f, 0.5f}},
-
-    {{-0.5f, 0.5f, 0.5f}},
-    {{-0.5f, 0.5f, -0.5f}},
-    {{-0.5f, -0.5f, -0.5f}},
-
-    // Right face (x = 0.5)
-    {{0.5f, -0.5f, 0.5f}},
-    {{0.5f, -0.5f, -0.5f}},
-    {{0.5f, 0.5f, -0.5f}},
-
-    {{0.5f, 0.5f, -0.5f}},
-    {{0.5f, 0.5f, 0.5f}},
-    {{0.5f, -0.5f, 0.5f}},
-
-    // Top face (y = 0.5)
-    {{-0.5f, 0.5f, 0.5f}},
-    {{0.5f, 0.5f, 0.5f}},
-    {{0.5f, 0.5f, -0.5f}},
-
-    {{0.5f, 0.5f, -0.5f}},
-    {{-0.5f, 0.5f, -0.5f}},
-    {{-0.5f, 0.5f, 0.5f}},
-
-    // Bottom face (y = -0.5)
-    {{-0.5f, -0.5f, -0.5f}},
-    {{0.5f, -0.5f, -0.5f}},
-    {{0.5f, -0.5f, 0.5f}},
-
-    {{0.5f, -0.5f, 0.5f}},
-    {{-0.5f, -0.5f, 0.5f}},
-    {{-0.5f, -0.5f, -0.5f}},
-};
   int indices[] = {
       0, 1, 2, 1, 3, 2,
   };
   Object object = Object(glm::vec3(0.0f, 0.0f, 0.0f), vertices, indices);
-  Object cube = Object(glm::vec3(2.0f, 0.0f, 0.0f), cubeVertices, indices);
+  auto cube = Cube(glm::vec3(2.0f, 0.0f, 0.0f));
+  auto cub1 = Cube(glm::vec3(-2.0f, 0.0f, 0.0f));
+  auto cub2 = Cube(glm::vec3(-4.0f, 0.0f, 0.0f));
   renderer->AddObject(object);
   renderer->AddObject(cube);
+  renderer->AddObject(cub1);
+  renderer->AddObject(cub2);
   deltatime = glfwGetTime();
 }
 
