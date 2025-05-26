@@ -1,5 +1,6 @@
 #include "Camera.h"
-#include "../graphics/Renderer.h"
+#include "Renderer.h"
+#include "Cube.h"
 namespace core {
 
 class GameEngine {
