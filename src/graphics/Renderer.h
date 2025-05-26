@@ -14,10 +14,10 @@ namespace graphics {
 
 class Renderer {
 public:
-  Renderer();
+  Renderer( Camera &cam);
   void Init();
   void AddObject(const core::Object &object);
-  void Render(const Camera &cam);
+  void Render();
   void Shutdown();
 
   GLFWwindow *GetWindow();
@@ -26,6 +26,6 @@ private:
   GLFWwindow *window;
   Shader *shaderProgram;
   std::vector<core::Object> objects;
-  Camera camera;
+   Camera  *camera;
 };
 }; // namespace graphics

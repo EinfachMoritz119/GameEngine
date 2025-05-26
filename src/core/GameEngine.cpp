@@ -1,16 +1,18 @@
 #include "GameEngine.h"
+#include "Camera.h"
 #include "Cube.h"
 #include "GLFW/glfw3.h"
+#include <iostream>
 #include <vector>
 
 namespace core {
 
 GameEngine::GameEngine() {
+  camera = graphics::Camera(glm::vec3(0.0f, 0.0f, 5.0f));
+  renderer = new graphics::Renderer(camera);
   Init();
-  camera = graphics::Camera(glm::vec3(0.0f, 0.0f, 3.0f));
 }
 void GameEngine::Init() {
-  renderer = new graphics::Renderer();
   std::vector<Vertex> vertices = {
       {glm::vec3(-0.5f, -0.5f, 0.0f)}, // bottom left
       {glm::vec3(0.5f, -0.5f, 0.0f)},  // bottom right
@@ -42,8 +44,9 @@ void GameEngine::Run() {
     currentTime = glfwGetTime();
     deltatime = currentTime - lastTime;
     lastTime = currentTime;
-    renderer->Render(camera);
+    renderer->Render();
     processInput();
+    std::cout << camera.Position.x << std::endl;
   }
 }
 void GameEngine::processInput() {
@@ -62,6 +65,12 @@ void GameEngine::processInput() {
   }
   if (glfwGetKey(renderer->GetWindow(), GLFW_KEY_D) == GLFW_PRESS) {
     camera.ProcessKeyboard(RIGHT, deltatime);
+  }
+  if (glfwGetKey(renderer->GetWindow(), GLFW_KEY_SPACE) == GLFW_PRESS) {
+    camera.ProcessKeyboard(UP, deltatime);
+  }
+  if (glfwGetKey(renderer->GetWindow(), GLFW_KEY_LEFT_CONTROL) == GLFW_PRESS) {
+    camera.ProcessKeyboard(DOWN, deltatime);
   }
 }
 }; // namespace core

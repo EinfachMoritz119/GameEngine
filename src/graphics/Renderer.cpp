@@ -1,6 +1,6 @@
 #include "Renderer.h"
 #include "glm/gtx/string_cast.hpp"
-
+#include "Camera.h"
 #include <filesystem>
 #include <iostream>
 #include <string>
@@ -12,7 +12,9 @@ void mouse_callback(GLFWwindow* window, double xpos, double ypos);
 
 float lastX = WIDTH /2;
 float lastY = HEIGHT/2;
-Renderer::Renderer() {
+float xoffset = 0;
+float yoffset = 0;
+Renderer::Renderer(Camera &cam) {
   if (!glfwInit()) {
     fprintf(stderr, "Failed to init GLFW\n");
   }
@@ -42,6 +44,7 @@ glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
   shaderProgram =
       new Shader("shader/vertex_shader.glsl", "shader/fragment_shader.glsl");
   Init();
+  camera = &cam;
 }
 
 void Renderer::Init() {
@@ -52,7 +55,7 @@ void Renderer::Init() {
   shaderProgram->setMat4("proj", proj);
 }
 
-void Renderer::Render(const Camera &cam) {
+void Renderer::Render() {
 
   glClearColor(0.3f, 0.3f, 0.3f, 1.0f);
   glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
@@ -61,14 +64,17 @@ void Renderer::Render(const Camera &cam) {
   }
   shaderProgram->use();
 
-  glm::mat4 view = cam.GetViewMatrix();
+  
+ 
+  std::cout << camera->Position.x << std::endl;
+  glm::mat4 view = camera->GetViewMatrix();
   shaderProgram->setMat4("view", view);
   int i = 1;
   for (core::Object &object : objects) {
 
     glm::mat4 model = glm::mat4(1.0f);
-    std::cout << glm::to_string(object.m_position) << std::endl;
-    model = glm::translate(model, object.m_position);
+    model = glm::translate(model,
+        glm::vec3(object.m_position.x * i, object.m_position.y, object.m_position.z));
     model = glm::rotate(model, glm::radians(20.0f * i) * (float)glfwGetTime(),
                         glm::vec3(1.0f, 1.0f, 0.0f));
     shaderProgram->setMat4("model", model);
@@ -76,6 +82,7 @@ void Renderer::Render(const Camera &cam) {
 object.update();
     i *= -1;
   }
+  camera->ProcessMouseMovement(xoffset, yoffset);
   glfwSwapBuffers(window);
   glfwPollEvents();
 }

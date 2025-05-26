@@ -15,6 +15,7 @@ private:
   graphics::Camera camera;
   double deltatime;
   void processInput();
+
 };
 
 }; // namespace core
