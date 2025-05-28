@@ -8,6 +8,7 @@
 namespace core {
 struct Vertex {
   glm::vec3 position;
+  glm::vec2 texCoords;
 };
 class Object {
 
@@ -22,6 +23,13 @@ public:
   std::vector<Vertex> m_vertices;
   std::vector<int> m_indices;
   GLuint vertex_array;
+  private:
+  float acceleration = -9.81f;
+  float time;
+  float velocity = 0;
+
+  float deltatime;
+  float lasttime;
 };
 }; // namespace core
 #endif // !OBJECT_H

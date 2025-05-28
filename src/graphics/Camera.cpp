@@ -56,11 +56,11 @@ void Camera::ProcessKeyboard(Camera_Movement direction, float deltaTime)
 	}
 	if (direction == UP)
 	{
-		Position += Up * velocity;
+		Position += WorldUp * velocity;
 	}
 	if (direction == DOWN)
 	{
-		Position -= Up * velocity;
+		Position -= WorldUp * velocity;
 	}
 	updateCameraVectors();
 }

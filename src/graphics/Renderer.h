@@ -5,6 +5,7 @@
 #include "Object.h"
 #include "Shader.h"
 #include "glm/glm.hpp"
+#include "Texture.h"
 #include "glm/gtc/matrix_transform.hpp"
 #include <vector>
 const int WIDTH = 1600;
@@ -26,6 +27,7 @@ private:
   GLFWwindow *window;
   Shader *shaderProgram;
   std::vector<core::Object> objects;
-   Camera  *camera;
+  Camera *camera;
+  Texture *texture;
 };
 }; // namespace graphics
