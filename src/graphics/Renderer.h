@@ -15,10 +15,10 @@ namespace graphics {
 
 class Renderer {
 public:
-  Renderer( Camera &cam);
+  Renderer();
   void Init();
   void AddObject(const core::Object &object);
-  void Render();
+  void Render(Camera &cam);
   void Shutdown();
 
   GLFWwindow *GetWindow();
